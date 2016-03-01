@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Search</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+<div id="searchBar">
+	<input type="text" name="movieSearch" id="movieInput" placeholder='Enter Movie Title' required>
+	<input type="number" id='Year' min='1900' max='2016' placeholder='Year' optional>
+	<select name="type" id="Type">
+		<option value="">Select Type</option>
+		<option value='Movie'>Movie</option>
+		<option value='Series'>Series</option>
+		<option value='Episode'>Episode</option>
+	</select>
+	<button id="movieButton">Search</button>
+</div>
+<div id="message"></div>
+<div id="movieSearch">
+	<div id="searchTemplate" class="searchResults">
+		<div class="title"></div>
+		<div class="year"></div>
+		<div class="rated"></div>
+		<br>
+		<img class="thumbnail">
+		<br>
+	</div>
+</div>
+<div id="movieTitle">
+	<div id="template" class="movie">
+		<div class="informationTop">
+			<span class="Title"></span>
+			<span class="Rated"></span><br>
+		</div>
+		<img  class="Poster"><br>
+		<div class="informationBottom">
+			<h3>Movie Information</h3>
+			<span class="Year"></span><br>
+			<span class="Released"></span>
+			<span class="Runtime"></span><br>
+			<span class="Genre"></span><br>
+			<a class="IMDb">IMDb</a><br>
+			<span class="Director"></span><br>
+			<span class="Writer"></span><br>
+			<span class="Actors"></span><br>
+			<span class="Plot"></span><br>
+			<span class="Awards"></span>
+		</div>
+	</div>
+</div>
+</body>
+</html>

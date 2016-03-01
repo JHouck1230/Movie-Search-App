@@ -1,0 +1,93 @@
+.informationTop {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+input#movieInput {
+  width: 155px;
+  height: 25px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+select#Type {
+  width: 105px;
+  font-size: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button#movieButton {
+  width: 75px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #57ACFF;
+  margin: 5px;
+  cursor: pointer;
+}
+
+span.Rated {
+  border: 1px solid black;
+  float: right;
+  margin-right: 40px;
+}
+
+span.Title {
+  float: left;
+  margin-left: 40px;
+  font-size: 23px;
+}
+
+div#searchBar {
+    background-color: cornflowerblue;
+    margin: auto;
+}
+
+.movie {
+  max-width: 375px;
+  min-height: 775px;
+  text-align: left;
+  margin: 20px auto;
+  border: 1px solid #000;
+  background-color: snow;
+  border-radius: 10px;
+}
+
+input#Year {
+  width: 65px;
+  height: 25px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.informationBottom {
+  padding: 10px;
+	background-color: burlywood;
+}
+
+body {
+  text-align: center;
+  display: block;
+  background-color: lightblue;
+}
+
+img.Poster {
+  margin: 10px auto;
+  display: block;
+}
+
+.required {
+	border-color: red;
+}
+
+#template {
+	display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
